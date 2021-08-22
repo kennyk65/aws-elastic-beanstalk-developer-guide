@@ -175,7 +175,7 @@ option_settings:
 
 ### Custom log file streaming<a name="AWSHowTo.cloudwatchlogs.streaming.custom"></a>
 
-The Elastic Beanstalk integration with CloudWatch Logs doesn't directly support the streaming of custom log files that your application generates\. To stream custom logs, use a configuration file to directly install the CloudWatch Logs agent and to configure the files to be pushed\. For an example configuration file, see [https://github.com/awsdocs/elastic-beanstalk-samples/tree/master/configuration-files/aws-provided/instance-configuration/logs-streamtocloudwatch-linux.config](https://github.com/awsdocs/elastic-beanstalk-samples/tree/master/configuration-files/aws-provided/instance-configuration/logs-streamtocloudwatch-linux.config)\.
+The Elastic Beanstalk integration with CloudWatch Logs requires customization to support the streaming of custom log files that your application generates\. To stream custom logs, use a configuration file to directly install the CloudWatch Logs agent and to configure the files to be pushed\. For an example configuration file, see [https://github.com/awsdocs/elastic-beanstalk-samples/tree/master/configuration-files/aws-provided/instance-configuration/logs-streamtocloudwatch-linux.config](https://github.com/awsdocs/elastic-beanstalk-samples/tree/master/configuration-files/aws-provided/instance-configuration/logs-streamtocloudwatch-linux.config)\.
 
 **Note**  
 The example doesn't work on the Windows platform\.
